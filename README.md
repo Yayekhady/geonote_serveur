@@ -1,6 +1,4 @@
-
-/***************************************************************************************************************************************************************
-                                           
+*****************************************************************************************************************************************************************
 								 Application Geonote
 
 ****************************************************************************************************************************************************************
@@ -68,7 +66,7 @@ geonote-serveur/geonoteWS/src/java/geonote qui regroupe nos webservices ainsi qu
 
 ->Les ejb entity permettent l'intraction avec la base de données et présentent des methodes getters et setters de chaque champs de notre base. 
 
-  On a défini autant d'entités que l'on a de table dans notre base. Ces entités sont au nombre de 4 
+On a défini autant d'entités que l'on a de table dans notre base. Ces entités sont au nombre de 4 
 
 
 	Note  qui décrit la table Note
@@ -82,7 +80,7 @@ geonote-serveur/geonoteWS/src/java/geonote qui regroupe nos webservices ainsi qu
 
 ->Les ejb sessions permettent de manipuler la base au travers des ejb entity et en utilisant des méthodes implémentées en fonction de nos besoins. Nous avons 
 
-  créés comme pour les entités, 4 ejb sessions sous le dossier/sessions
+créés comme pour les entités, 4 ejb sessions sous le dossier/sessions
 
 	NoteFaçade où sont décrit toutes les méthodes relatives à la gestion des notes
 
@@ -95,7 +93,7 @@ geonote-serveur/geonoteWS/src/java/geonote qui regroupe nos webservices ainsi qu
 
 ->Les webservices permettent l'interaction avec notre application cliente. Ils sont appelés dans notre backbone pour faire le lien avec les serveurs par
   
-  des requetes soap. Lew webservices sont sous le repertoire /webservice et sont au nombre de 3
+des requetes soap. Lew webservices sont sous le repertoire /webservice et sont au nombre de 3
 
 	Users pour faire appel aux méthodes spéciques aux users 
 
