@@ -24,12 +24,9 @@ geonote_serveur/geonoteWS/build/web qui regroupe toute la partie HTML
 
 ->les feuilles de styles utilisées notamment celles jquery et bootstrap dans le dossier css
 
-->les fichiers javascripts disponible dans le dossier js et qui contient d'une part les fichiers propres au développement avec Jquery 
-		
-  et d'autre part notre modèle de backbone(fichier app.js).Pour les besoins de notre modèle de backbone nous avons également ajouté 
+->les fichiers javascripts disponible dans le dossier js et qui contient d'une part les fichiers propres au développement avec Jquery et d'autre part notre modèle de backbone(fichier app.js).Pour les besoins de notre modèle de backbone nous avons également ajouté le fichier underscore. 
 
-  le fichier underscore. 
-  app.js regroupe en plus du backbone, les fonctions de géolocalisation.
+app.js regroupe en plus du backbone, les fonctions de géolocalisation.
 
 ->Les images utilisées dans notre pages html dans le dossier img
 
@@ -78,9 +75,7 @@ On a défini autant d'entités que l'on a de table dans notre base. Ces entités
 	Parcourseffectués qui décrit la table parcours effectué
 
 
-->Les ejb sessions permettent de manipuler la base au travers des ejb entity et en utilisant des méthodes implémentées en fonction de nos besoins. Nous avons 
-
-créés comme pour les entités, 4 ejb sessions sous le dossier/sessions
+->Les ejb sessions permettent de manipuler la base au travers des ejb entity et en utilisant des méthodes implémentées en fonction de nos besoins. Nous avons créés comme pour les entités, 4 ejb sessions sous le dossier/sessions
 
 	NoteFaçade où sont décrit toutes les méthodes relatives à la gestion des notes
 
@@ -91,9 +86,7 @@ créés comme pour les entités, 4 ejb sessions sous le dossier/sessions
 	ParcourseffectuésFaçade où sont décrit toutes les méthodes relatives à la gestion des parcours effectués par l'utilisateur
  
 
-->Les webservices permettent l'interaction avec notre application cliente. Ils sont appelés dans notre backbone pour faire le lien avec les serveurs par
-  
-des requetes soap. Lew webservices sont sous le repertoire /webservice et sont au nombre de 3
+->Les webservices permettent l'interaction avec notre application cliente. Ils sont appelés dans notre backbone pour faire le lien avec les serveurs par des requetes soap. Lew webservices sont sous le repertoire /webservice et sont au nombre de 3
 
 	Users pour faire appel aux méthodes spéciques aux users 
 
