@@ -37,31 +37,34 @@ geonote_serveur/geonoteWS/build/web qui regroupe toute la partie HTML
 
 ->le fichier index. html qui regroupe toutes nos pages html:
 
-La page Accueil qui est l'interface d'accueil de l'application 
-		
-La page connexion qui est l'interface de connexion à l'application
+	La page Accueil qui est l'interface d'accueil de l'application 
+		 
+	La page connexion qui est l'interface de connexion à l'application
 	
-La page inscription pour une nouvelle inscription 
+	La page inscription pour une nouvelle inscription 
 	
-La page Recherche qui est l'interface sur lequel on accede en saisissant par erreur un parcours et qui propose un choix par thème
+	La page Recherche qui est l'interface sur lequel on accede en saisissant par erreur un parcours et qui propose un choix par thème
 
-La page CreerNote pour creer une nouvelle note
+	La page CreerNote pour creer une nouvelle note
 
-La page Creer Parcours pour creer un nouveau parcours 
+	La page Creer Parcours pour creer un nouveau parcours 
  
-La page Mes parcours pour visualiser ces parcours effectués 
+	La page Mes parcours pour visualiser ces parcours effectués 
 
-La page top 5 pour voir les meilleurs parcours 
+	La page top 5 pour voir les meilleurs parcours 
 
-La page autour qui nous localise
+	La page autour qui nous localise
 
-La page Descriptif parcours qui donnes les informations relatives à un parcours notamment la distance, la durée...
+	La page Descriptif parcours qui donnes les informations relatives à un parcours notamment la distance, la durée...
 	
-La page Débuter Parcours qui utilise les données de géolocalisation et qui trace le parcours de l'utilisateur.
-	
+	La page Débuter Parcours qui utilise les données de géolocalisation et qui trace le parcours de l'utilisateur.
+
+
+******************************************************************************************************************************************************
 
 geonote-serveur/geonoteWS/src/java/geonote qui regroupe nos webservices ainsi que les ejb entity et sessions 
 
+******************************************************************************************************************************************************
 
 ->Les ejb entity permettent l'intraction avec la base de données et présentent des methodes getters et setters de chaque champs de notre base. 
 
